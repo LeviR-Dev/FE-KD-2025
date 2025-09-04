@@ -1,12 +1,53 @@
+<script setup lang="ts">
+import type { DropdownMenuItem } from '@nuxt/ui';
+
+const items = ref<DropdownMenuItem[]>([
+  {
+    label: 'Home',
+    href: '/',
+    icon: 'i-lucide-home',
+  },
+  {
+    label: 'Eigen Jungletuin',
+    href: '/jungeGardenPage',
+    icon: 'i-lucide-tree-deciduous',
+  },
+  {
+    label: 'Contact',
+    href: '/contactPage',
+    icon: 'i-lucide-phone',
+  }
+]);
+</script>
+
+
 <template>
   <div>
-    <header class="">
-      <nav class="flex justify-around bg-amber-500">
-        <NuxtLink to="/">Home</NuxtLink>
-        <NuxtLink to="/jungeGardenPage">Eigen Jungletuin</NuxtLink>
-        <NuxtLink to="/contactPage">Contact</NuxtLink>
-      </nav>
-      <h1>Header</h1>
+    <header class="w-full header_Background py-6">
+      <div class="flex justify-between w-full">
+        <div class="text-2xl font-semibold ml-2 opacity-75">Jungle Tuinen</div> <!--SEO-->
+      <UDropdownMenu
+      class="mr-2 opacity-80 text-md"
+        :items="items"
+        :content="{
+          align: 'start',
+          side: 'bottom',
+          sideOffset: 26,
+          
+        }"
+        :ui="{
+          content: 'w-42 bg-gray-700',
+          item: 'bg-gray-700',
+        }"
+      >
+        <UButton
+          icon="i-lucide-menu"
+          color="none"
+          size="xl"
+        />
+      </UDropdownMenu>
+      </div>
+      
     </header>
 
     <!-- Page Content -->
