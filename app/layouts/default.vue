@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="">
-      <nav class="">
+      <nav class="flex justify-around bg-amber-500">
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/jungeGardenPage">Eigen Jungletuin</NuxtLink>
         <NuxtLink to="/contactPage">Contact</NuxtLink>
