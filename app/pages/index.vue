@@ -1,10 +1,16 @@
 <template>
   <div>
-    <h2>Homepage</h2>
-    <TestHomeComponent />
+    <BannerComponent />
+    <div class="w-11/12 mx-auto">
+      <ImageSliderComponent />
+      <HomeText />
+    </div>
+    
   </div>
 </template>
 
 <script setup>
-import TestHomeComponent from '~/components/home/TestHomeComponent.vue'
+import BannerComponent from '~/components/home/BannerComponent.vue'
+import ImageSliderComponent from '~/components/home/ImageSliderComponent.vue'
+import HomeText from '~/components/home/homeText.vue'
 </script>
