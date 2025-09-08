@@ -1,6 +1,6 @@
 <script setup lang="ts">
+import FooterComponent from '~/components/defaultComponents/FooterComponent.vue'
 import type { DropdownMenuItem } from '@nuxt/ui';
-
 const items = ref<DropdownMenuItem[]>([
   {
     label: 'Home',
@@ -25,7 +25,7 @@ const items = ref<DropdownMenuItem[]>([
   <div>
     <header class="w-full header_Background py-6">
       <div class="flex justify-between w-full">
-        <div class="text-2xl font-semibold ml-2 opacity-75">Jungle Tuinen</div> <!--SEO-->
+        <div class="text-2xl font-semibold ml-2 opacity-75"><NuxtLink to="/">Jungle Tuinen</NuxtLink> </div> <!--SEO-->
       <UDropdownMenu
       class="mr-2 opacity-80 text-md"
         :items="items"
@@ -51,8 +51,10 @@ const items = ref<DropdownMenuItem[]>([
     </header>
 
     <!-- Page Content -->
-    <main class=""> <!--Content zit hier onder duss padding?!?-->
+    <main>
       <slot />
+      
     </main>
+    <FooterComponent />
   </div>
 </template>
