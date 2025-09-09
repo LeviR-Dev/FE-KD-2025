@@ -10,7 +10,6 @@ import { onMounted } from 'vue'
 
 onMounted(async () => {
   if (process.client) {
-    // Dynamically import Leaflet to avoid SSR issues
     const L = await import('leaflet')
 
     // Init map
@@ -19,7 +18,7 @@ onMounted(async () => {
     // Tiles OSM
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>'
     }).addTo(map)
 
     interface Pin {
@@ -43,6 +42,6 @@ onMounted(async () => {
 </script>
 
 <style>
-/* Leaflet CSS needs to be loaded manually in Nuxt */
+/* leaflet css moet manual geïmporteerd worden in Nuxt anders werkt die niet >:( */
 @import "leaflet/dist/leaflet.css";
 </style>
