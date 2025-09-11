@@ -1,5 +1,5 @@
 <script lang="ts">
-import JungleSlider1 from '~/assets/images/slider/JunglePic1.webp';
+import JungleSlider1 from '~/assets/images/slider/junglePic1.webp';
 import JungleSlider2 from '~/assets/images/slider/JunglePic2.webp';
 import JungleSlider3 from '~/assets/images/slider/JunglePic3.webp';
 import JungleSlider4 from '~/assets/images/slider/JunglePic4.webp';
