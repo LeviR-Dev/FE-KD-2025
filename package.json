@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@iconify-json/tabler": "^1.2.22",
     "@nuxt/ui": "^3.3.3",
     "@tailwindcss/vite": "^4.1.12",
     "leaflet": "^1.9.4",
