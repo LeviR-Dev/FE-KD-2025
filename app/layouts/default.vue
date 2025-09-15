@@ -25,9 +25,10 @@ const items = ref<DropdownMenuItem[]>([
   <div>
     <header class="w-full header_Background py-6">
       <div class="flex justify-between w-full">
-        <div class="text-2xl font-semibold ml-2 opacity-75"><NuxtLink to="/">Jungle Tuinen</NuxtLink> </div> <!--SEO-->
+        <title class="text-2xl font-semibold ml-2"><NuxtLink to="/">Jungle Tuinen</NuxtLink> </title>
       <UDropdownMenu
       class="mr-2 opacity-80 text-md"
+        name="Navigation"
         :items="items"
         :content="{
           align: 'start',

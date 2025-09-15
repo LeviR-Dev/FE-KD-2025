@@ -6,16 +6,27 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+import { Icon } from 'leaflet'
 
 onMounted(async () => {
   if (process.client) {
     const L = await import('leaflet')
 
-    // Init map
+    // Set default icon image
+    const DefaultIcon = L.icon({
+      iconUrl: 'https://unpkg.com/leaflet@1.9.2/dist/images/marker-icon.png',
+      iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.2/dist/images/marker-icon-2x.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowUrl: 'https://unpkg.com/leaflet@1.9.2/dist/images/marker-shadow.png',
+      shadowSize: [41, 41]
+    })
+
+    // map init
     const map = L.map('map').setView([52.5167, 6.0833], 13)
 
-    // Tiles OSM
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>'
@@ -33,9 +44,9 @@ onMounted(async () => {
       { name: 'Peperbus', coords: [52.5168, 6.0919] }
     ]
 
-    // Add pins to map
     pins.forEach(pin => {
-      L.marker(pin.coords).addTo(map).bindPopup(pin.name)
+      const marker = L.marker(pin.coords, { icon: DefaultIcon }).addTo(map)
+      marker.bindPopup(pin.name)
     })
   }
 })
@@ -45,3 +56,4 @@ onMounted(async () => {
 /* leaflet css moet manual geïmporteerd worden in Nuxt anders werkt die niet >:( */
 @import "leaflet/dist/leaflet.css";
 </style>
+
