@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Jungle tuinen",
+      title: "Jungle Tuinen – Inspiratie & Tips voor een Groene Oase",
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1, maximum-scale=5",
       meta: [

@@ -42,9 +42,9 @@ const handleSubmit = (e) => {
       @submit.prevent="handleSubmit"
       class="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md space-y-6"
     >
-      <h1 class="text-3xl font-bold text-center mb-2 text-gray-800">
+      <h2 class="text-3xl font-bold text-center mb-2 text-gray-800">
         Contact Formulier
-      </h1>
+      </h2>
 
       <!-- Email -->
       <div>
