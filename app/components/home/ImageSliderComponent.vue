@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div class="md:mt-[300px]"> 
-      <h2 class="text-md md:text-2xl font-bold">Foto gallerij</h2>
+      <h2 class="text-md md:text-2xl font-bold">Foto galerij</h2>
       <div class="text-sm md:text-md mt-2">Bekijk fotos van jungle tuinen!</div>
     </div>
     <br />
@@ -42,6 +42,7 @@ export default {
         <div class="w-full h-64 md:h-80 lg:h-96 overflow-hidden rounded-lg">
           <img
             :src="item"
+            title="Jungle image slider"
             alt="Jungle image slider"
             class="w-full h-full object-cover"
           />
