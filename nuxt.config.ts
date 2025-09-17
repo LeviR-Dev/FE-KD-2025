@@ -14,14 +14,16 @@ export default defineNuxtConfig({
     head: {
       title: "Jungle tuinen",
       charset: "utf-8",
-      viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+      viewport: "width=device-width, initial-scale=1, maximum-scale=5",
       meta: [
         {
           name: "description",
           content: "informatieve jungletuin website",
         },
       ],
+      htmlAttrs: {
+        lang: "nl",
+      },
     },
   },
 });
-  

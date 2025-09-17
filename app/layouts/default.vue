@@ -47,6 +47,7 @@ const items = ref<DropdownMenuItem[]>([
           icon="i-lucide-menu"
           color="none"
           size="xl"
+          aria-label="Navigation Menu"
         />
       </UDropdownMenu>
       </div>
