@@ -94,7 +94,7 @@ const handleSubmit = (e) => {
       <!-- Submit button -->
       <button
         type="submit"
-        class="w-full bg-green700 hover:bg-green-900 text-white text-lg font-semibold py-3 rounded-lg shadow-md transition duration-200"
+        class="w-full bg-green-700 hover:bg-green-900 text-white text-lg font-semibold py-3 rounded-lg shadow-md transition duration-200"
       >
         Verstuur
       </button>
