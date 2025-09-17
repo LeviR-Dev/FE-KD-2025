@@ -25,7 +25,9 @@ const items = ref<DropdownMenuItem[]>([
   <div>
     <header class="w-full header_Background py-6">
       <div class="flex justify-between w-full">
-        <title class="text-2xl font-semibold ml-2"><NuxtLink to="/">Jungle Tuinen</NuxtLink> </title>
+        <h1 class="text-2xl font-semibold ml-2">
+          <NuxtLink to="/">Jungle Tuinen</NuxtLink>
+        </h1>
       <UDropdownMenu
       class="mr-2 opacity-80 text-md"
         name="Navigation"
