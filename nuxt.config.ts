@@ -18,7 +18,8 @@ export default defineNuxtConfig({
       meta: [
         {
           name: "description",
-          content: "informatieve jungletuin website",
+          content:
+            "Ontdek alles over jungle tuinen: tips, inspiratie en onderhoud. Bezoek Jungletuinen.nl voor unieke ideeën en maak van jouw tuin een tropisch paradijs",
         },
       ],
       htmlAttrs: {

@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div class="md:mt-[300px]"> 
-      <div class="text-md md:text-2xl font-bold">Foto gallerij</div>
+      <h2 class="text-md md:text-2xl font-bold">Foto gallerij</h2>
       <div class="text-sm md:text-md mt-2">Bekijk fotos van jungle tuinen!</div>
     </div>
     <br />
