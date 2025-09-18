@@ -6,8 +6,16 @@
   </UApp>
   
 </template>
-<script setup lang="ts">
+<script lang="ts">
 import { useSeoMeta } from '#app'
+
+export default {
+  head: {
+    meta: [
+      { name: 'keywords', content: 'jungle tuin, tuien, jungle, jungle tuin aanleggen' }
+    ]
+  }
+}
 
 useSeoMeta({
   title: 'Jungle Tuinen',
