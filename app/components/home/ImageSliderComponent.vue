@@ -42,8 +42,8 @@ export default {
         <div class="w-full h-64 md:h-80 lg:h-96 overflow-hidden rounded-lg">
           <img
             :src="item"
-            title="Jungle image slider"
-            alt="Jungle image slider"
+            title="Foto van een jungle tuin"
+            alt="Foto van een jungle tuin, een tropische planten oase"
             class="w-full h-full object-cover"
           />
         </div>
