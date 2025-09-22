@@ -45,7 +45,7 @@ export default {
 </div>
 <div class="w-11/12 mx-auto relative">
     <h2 class=" text-xl md:text-4xl font-bold py-5">Welkom bij jungle Tuinen</h2> 
-    <h3 class="max-w-[400px] font-thin md:text-xl mb-64">Breng <strong>tropische sferen naar je eigen achtertuin</strong> en geniet van een groene oase vol sfeer en leven. Op onze website vind je <strong>inspiratie</strong> én een eenvoudig <strong><nuxt-link to="/stappenplan" class="underline text-white">stappenplan</nuxt-link></strong> om zelf jouw jungletuin aan te leggen. Zo maak je van iedere buitenruimte een paradijs!</h3>
+    <h3 class="max-w-[400px] font-thin md:text-xl mb-64">Breng <strong>tropische sferen naar je eigen achtertuin</strong> en geniet van een groene oase vol sfeer en leven. Op onze website vind je <strong>inspiratie</strong> én een eenvoudig <strong><nuxt-link to="/jungeGardenPage" class="underline text-white">stappenplan</nuxt-link></strong> om zelf jouw jungletuin aan te leggen. Zo maak je van iedere buitenruimte een paradijs!</h3>
 </div>
 
 </template>
