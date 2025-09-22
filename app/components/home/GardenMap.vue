@@ -1,6 +1,6 @@
 <template>
   <div class="p-4 mt-10 md:mt-0 max-w-4xl mx-auto">
-    <h2 class="text-xl font-semibold mb-3">Kaart van Zwolle</h2>
+    <h2 class="text-xl font-semibold mb-3">Tuinen in de buurt</h2>
     <div id="map" class="w-full h-96 rounded-lg shadow-md"></div>
   </div>
 </template>
