@@ -1,8 +1,8 @@
 <script lang="ts">
 
-import SmallImage from '~/assets/images/JungleBannerSmall.webp';
-import MeduimImage from '~/assets/images/JungleBannerMed.webp';
-import LargeImage from '~/assets/images/JungleBannerLarge.webp';
+import SmallImage from '~/assets/images/JungleBannerSmall-edited.webp';
+import MeduimImage from '~/assets/images/JungleBannerMed-edited.webp';
+import LargeImage from '~/assets/images/JungleBannerLarge-edited.webp';
 
 export default {
   name: 'BannerComponent',
