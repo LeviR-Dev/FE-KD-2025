@@ -1,75 +1,18 @@
-# Nuxt Minimal Starter
+# Jungle Tuinen - Frontend School project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Schoolproject** – Dit is het Frontend Keuzedeel **Jungle Tuinen SEO**, een website die tropische sferen naar je eigen achtertuin brengt. Het project is volledig responsive en gemaakt voor een schoolopdracht.
 
-## Setup
+## 🌐 Live Demo
+[https://frontend-kd-levi.reachservers.nl/](https://frontend-kd-levi.reachservers.nl/)
 
-Make sure to install dependencies:
+## 🛠️ Technologieën
+- **HTML / CSS / TypeScript**
+- **Tailwind CSS** voor styling
+- **Vue.js** voor interactieve componenten
+- **Nuxt**: vue Framework voor dynamische webpagina's
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 🚀 Functies
+- Overzicht van tropische tuinproducten en inspiratie
+- Responsief ontwerp voor desktop en mobiel
+- SEO-optimalisatie met meta-tags en alt-teksten
+- Open Graph (OG) tags voor betere sociale media previews
